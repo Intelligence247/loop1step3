@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #15957a;
+
+}
+
+main {
+    width: 32rem;
+    height: 35rem;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.price img {
+    cursor: pointer;
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    border: 1PX solid rgb(201, 194, 194);
+    border-radius: 50%;
+    margin-top: 1.5rem;
+
+}
+
+.bicycle img {
+    width: 32rem;
+    top: 22.5rem;
+    position: absolute;
+
+
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0px 2rem;
+}
+
+header p {
+    /* text-align: center; */
+    padding: 0px 2rem;
+    padding-bottom: 2rem;
+    color: #848b86;
+    font-weight: 500;
+}
+
+h1 {
+    padding-top: 1rem;
+}
+
+.total {
+    font-weight: 700;
+    color: #525763;
+}

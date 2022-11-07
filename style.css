@@ -11,10 +11,12 @@ body {
 
 main {
     width: 32rem;
-    height: 35rem;
+    height: 25rem;
     background-color: #ffffff;
     margin: auto;
     margin-top: 10rem;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .price img {
@@ -28,12 +30,15 @@ main {
 
 }
 
-.bicycle img {
+.bicycle {
     width: 32rem;
-    top: 22.5rem;
+    top: 10.5rem;
     position: absolute;
 
+}
 
+.bicycle img {
+    width: 100%;
 }
 
 .price {
